@@ -1,5 +1,4 @@
-// Easy Responsive Tabs Plugin
-// Author: Samson.Onna <Email : samson3d@gmail.com> 
+
 (function ($) {
     $.fn.extend({
         easyResponsiveTabs: function (options) {
@@ -138,7 +137,6 @@
                    // $($respTabs.find('.resp-tab-content.' + options.tabidentify)[tabNum]).addClass('resp-accordion-closed'); //removed resp-tab-content-active
                 }
 
-                //Tab Click action function
                 $respTabs.find("[role=tab]").each(function () {
 
                     var $currentTab = $(this);

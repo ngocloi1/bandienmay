@@ -17,9 +17,6 @@
 
  	}
  	$insert_row = mysqli_query($con,$sql_giohang);
- 	// if($insert_row==0){
- 	// 	header('Location:index.php?quanly=chitietsp&id='.$sanpham_id);	
- 	// }
 
  }elseif(isset($_POST['capnhatsoluong'])){
  	
@@ -86,7 +83,6 @@
  }
 ?>
 
-<!-- checkout page -->
 	<div class="privacy py-sm-5 py-4">
 		<div class="container py-xl-4 py-lg-2">
 			<!-- tittle heading -->
@@ -256,4 +252,3 @@
 			?>
 		</div>
 	</div>
-	<!-- //checkout page -->

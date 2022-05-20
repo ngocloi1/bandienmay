@@ -6,11 +6,7 @@ function scroller() {
   
   var height = scroll.height(); // Gets the height of the scroll div
   
-  var topAdj = -height-100; /* '-height' turns the height                   of the UL into a negative #, 
-               * '- 50' subtracts an extra 50 pixels from the height of 
-        			 * the div so that it moves the trail of the UL higher to 
-							 * the top of the div before the animation                ends
-							 */
+  var topAdj = -height-100;
 	
 	scroll.animate({
 		'top' : [topAdj, 'linear'] 

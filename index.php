@@ -5,7 +5,7 @@
 	<title>Web Điên Máy</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta charset="UTF-8" />
-	<meta name="keywords" content="   web designs for Nokia, Samsung, LG, SonyEricsson, Motorola web design"
+	<meta name="keywords" content="web designs for Nokia, Samsung, LG, SonyEricsson, Motorola web design"
 	/>
 	<script>
 		addEventListener("load", function () {

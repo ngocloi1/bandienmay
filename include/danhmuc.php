@@ -10,7 +10,6 @@
 	$row_title = mysqli_fetch_array($sql_category);
 	$title = $row_title['category_name'];		
 	?>
-<!-- top Products -->
 	<div class="ads-grid py-sm-5 py-4">
 		<div class="container py-xl-4 py-lg-2">
 			<!-- tittle heading -->

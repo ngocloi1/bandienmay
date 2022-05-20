@@ -9,7 +9,7 @@
 	$sql_update_donhang = mysqli_query($con,"UPDATE tbl_donhang SET huydon='$huydon' WHERE mahang='$magiaodich'");
 	$sql_update_giaodich = mysqli_query($con,"UPDATE tbl_giaodich SET huydon='$huydon' WHERE magiaodich='$magiaodich'");
 ?>
-<!-- top Products -->
+
 	<div class="ads-grid py-sm-5 py-4">
 		<div class="container py-xl-4 py-lg-2">
 			<!-- tittle heading -->
@@ -133,15 +133,9 @@
 								</table>
 							</div>
 							</div>
-
-						
-						<!-- //first section -->
 					</div>
 				</div>
-				<!-- //product left -->
-				<!-- product right -->
 				
 			</div>
 		</div>
 	</div>
-	<!-- //top products -->

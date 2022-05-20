@@ -1,7 +1,7 @@
-<!-- top Products -->
+
 	<div class="ads-grid py-sm-5 py-4">
 		<div class="container py-xl-4 py-lg-2">
-			<!-- tittle heading -->
+
 			<h3 class="tittle-w3l text-center mb-lg-5 mb-sm-4 mb-3">
 				<h3 class="tittle-w3l text-center mb-lg-5 mb-sm-4 mb-3">Danh mục sản phẩm</h3>
 			<!-- //tittle heading -->
@@ -62,16 +62,13 @@
 								?>
 							</div>
 						</div>
-						<!-- //first section -->
+
 							<?php
 							} 
 							?>
 						
 					</div>
 				</div>
-				<!-- //product left -->
-
-				<!-- product right -->
 				<div class="col-lg-3 mt-lg-0 mt-4 p-lg-0">
 					<div class="side-bar p-sm-4 p-3">
 						<div class="search-hotel border-bottom py-2">
@@ -112,8 +109,6 @@
 								
 							</ul>
 						</div>
-						<!-- //reviews -->
-						<!-- electronics -->
 						<div class="left-side border-bottom py-2">
 
 							<h3 class="agileits-sear-head mb-3">Danh mục sản phẩm</h3>
@@ -123,7 +118,6 @@
 									while($row_category_sidebar = mysqli_fetch_array($sql_category_sidebar)){
 								?>
 								<li>
-									<!-- <input type="checkbox" class="checked"> -->
 									<span class="span"><a href="danhmucsanpham.php?id=<?php echo $row_category_sidebar['category_id'] ?>"><?php echo $row_category_sidebar['category_name'] ?></a></span>
 								</li>
 								<?php
@@ -131,10 +125,6 @@
 								?>
 							</ul>
 						</div>
-						<!-- //electronics -->
-					
-						
-						<!-- best seller -->
 						<div class="f-grid py-2">
 							<h3 class="agileits-sear-head mb-3">Sản phẩm bán chạy</h3>
 							<div class="box-scroll">
@@ -168,4 +158,4 @@
 			</div>
 		</div>
 	</div>
-	<!-- //top products -->
+

@@ -8,13 +8,12 @@
 
 	$title = $tukhoa;
 	}		
-	?> 
-<!-- top Products -->
+	?>
 	<div class="ads-grid py-sm-5 py-4">
 		<div class="container py-xl-4 py-lg-2">
-			<!-- tittle heading -->
+
 			<h3 class="tittle-w3l text-center mb-lg-5 mb-sm-4 mb-3">Từ khóa tìm kiếm : <?php echo $title ?></h3>
-			<!-- //tittle heading -->
+
 			<div class="row">
 				<!-- product left -->
 				<div class="agileinfo-ads-display col-lg-9">
@@ -66,8 +65,7 @@
 						<!-- //first section -->
 					</div>
 				</div>
-				<!-- //product left -->
-				<!-- product right -->
+
 				<div class="col-lg-3 mt-lg-0 mt-4 p-lg-0">
 					<div class="side-bar p-sm-4 p-3">
 						<div class="search-hotel border-bottom py-2">
@@ -282,4 +280,3 @@
 			</div>
 		</div>
 	</div>
-	<!-- //top products -->
